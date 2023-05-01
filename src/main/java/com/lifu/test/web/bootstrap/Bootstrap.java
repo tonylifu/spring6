@@ -41,6 +41,9 @@ public class Bootstrap implements CommandLineRunner {
         ericSaved.getBooks().add(dddSaved);
         rodSaved.getBooks().add(j2eeSaved);
 
+        authorRepository.save(ericSaved);
+        authorRepository.save(rodSaved);
+
         System.out.println("****In Bootstrap****");
         System.out.printf("Authors' Count: %d%n", authorRepository.count());
         System.out.printf("Books' Count: %d%n", bookRepository.count());
