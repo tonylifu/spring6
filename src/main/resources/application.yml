@@ -1,5 +1,5 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://tonylifu:Lad1am0re@lifu.7r6gj2b.mongodb.net/test
-      database: lifu_test
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://tonylifu:Lad1am0re@lifu.7r6gj2b.mongodb.net/test
+#      database: lifu_test
