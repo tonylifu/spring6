@@ -1,10 +1,12 @@
 package com.lifu.test.web.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.Set;
 
 @Entity
+@Data
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
